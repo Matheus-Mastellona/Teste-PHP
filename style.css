@@ -17,9 +17,10 @@ form {
     margin-bottom: 20px;
 }
 
-label, input {
+label, input[type="text"] {
     display: block;
-    margin: 10px 0;
+    margin: 10px auto;
+    text-align: left;
 }
 
 input[type="text"] {
@@ -35,6 +36,9 @@ input[type="submit"] {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-top: 10px;
+    display: block;
+    margin: 10px auto;
 }
 
 input[type="submit"]:hover {
